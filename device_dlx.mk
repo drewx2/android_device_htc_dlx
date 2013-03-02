@@ -29,10 +29,7 @@ PRODUCT_COPY_FILES += \
     device/htc/dlx/ramdisk/init.usb.rc:root/init.usb.rc \
     device/htc/dlx/ramdisk/init.qcom.modem_links.sh:root/init.qcom.modem_links.sh \
     device/htc/dlx/ramdisk/init.qcom.sh:root/init.qcom.sh \
-    device/htc/dlx/ramdisk/ueventd.rc:root/ueventd.rc \
-    device/htc/dlx/ramdisk/ueventd.target.rc:root/ueventd.target.rc \  
-    device/htc/dlx/ramdisk/init.qcom.firmware_links.sh:root/init.qcom.firmware_links.sh \
-    device/htc/dlx/ramdisk/init.qcom.rc:root/init.qcom.rc \
+    device/htc/dlx/ramdisk/ueventd.target.rc:root/ueventd.target.rc \
     device/htc/dlx/ramdisk/init.sensors.rc:root/init.sensors.rc
     
 
