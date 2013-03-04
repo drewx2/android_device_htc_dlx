@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # common msm8960 configs
@@ -132,9 +131,20 @@ PRODUCT_COPY_FILES += \
 # Extra properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enable_bypass=1 \
-    dalvik.vm.lockprof.threshold=500 \
+    ro.baseband.arch=mdm \
+    ro.sf.lcd_density=480 \
+    ro.hdmi.enable=true \
     ro.com.google.locationfeatures=1 \
-    dalvik.vm.dexopt-flags=m=y
+	debug.hwui.render_dirty_regions=false
+    dalvik.vm.lockprof.threshold=500 \
+    dalvik.vm.dexopt-flags=m=y \
+    dalvik.vm.heapsize=256m \
+    dalvik.vm.heapgrowthlimit=128m \
+	dalvik.vm.heapstartsize=8m \
+    keyguard.no_require_sim=true \
+    persist.data_netmgrd_nint=16 \
+	persist.data_netmgrd_mtu=1428
+    
 
 # We have enough space to hold precise GC data
 PRODUCT_TAGS += dalvik.gc.type-precise
