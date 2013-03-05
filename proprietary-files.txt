@@ -6,11 +6,8 @@ lib/libaudcal.so
 #lib/libOpenCL.so
 lib/libOpenVG.so
 #lib/libclrenderer.so
-#lib/libxml.so
+lib/libxml.so
 #lib/libmmstillomx.so   
-#lib/libOmxVenc.so
-#lib/libOmxVdec.so
-#lib/libmm-omxcore.so
 #lib/libaricentomxplugin.so 
 #lib/soundfx/libsrsfx.so
 #lib/libsoundpool.so
@@ -132,26 +129,26 @@ lib/libchromatix_imx175_default_video.so
 
 # Media libraries
 lib/libmm-color-convertor.so
-#lib/libwvm.so
-#lib/libdrmwvmplugin.so
-#lib/libwvdrm_L1.so
-#lib/libWVStreamControlAPI_L1.so
+lib/libwvm.so
+lib/libdrmwvmplugin.so
+lib/libwvdrm_L1.so
+lib/libWVStreamControlAPI_L1.so
 lib/libI420colorconvert.so
 
-#lib/libmmmpo.so
-#lib/libmmmpod.so
-#lib/libgnmc_aactag.2.5.9.4.so
-#lib/libgnmc_decoder.2.5.9.4.so
-#lib/libdrmdecrypt.so
-#lib/libdivxdrmdecrypt.so
-#lib/libDxAndroidSpecific.so
+lib/libmmmpo.so
+lib/libmmmpod.so
+lib/libgnmc_aactag.2.5.9.4.so
+lib/libgnmc_decoder.2.5.9.4.so
+lib/libdrmdecrypt.so
+lib/libdivxdrmdecrypt.so
+lib/libDxAndroidSpecific.so
 
 #lib/libstagefright_soft_aacdec.so
 #lib/libstagefright_soft_aacenc.so
-#lib/libimage-jpeg-dec-omx-comp.so
-#lib/libimage-jpeg-enc-omx-comp.so
-#lib/libimage-omx-common.so
-#lib/libdrmfs.so
+lib/libimage-jpeg-dec-omx-comp.so
+lib/libimage-jpeg-enc-omx-comp.so
+lib/libimage-omx-common.so
+lib/libdrmfs.so
 #lib/libfuse.so
 
 # NFC
