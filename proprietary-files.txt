@@ -132,10 +132,11 @@ lib/libchromatix_imx175_default_video.so
 
 # Media libraries
 lib/libmm-color-convertor.so
-lib/libwvm.so
-lib/libdrmwvmplugin.so
-lib/libwvdrm_L1.so
-lib/libWVStreamControlAPI_L1.so
+#lib/libwvm.so
+#lib/libdrmwvmplugin.so
+#lib/libwvdrm_L1.so
+#lib/libWVStreamControlAPI_L1.so
+lib/libI420colorconvert.so
 
 #lib/libmmmpo.so
 #lib/libmmmpod.so
@@ -143,7 +144,7 @@ lib/libWVStreamControlAPI_L1.so
 #lib/libgnmc_decoder.2.5.9.4.so
 #lib/libdrmdecrypt.so
 #lib/libdivxdrmdecrypt.so
-lib/libDxAndroidSpecific.so
+#lib/libDxAndroidSpecific.so
 
 #lib/libstagefright_soft_aacdec.so
 #lib/libstagefright_soft_aacenc.so
@@ -264,13 +265,7 @@ etc/firmware/tzapps.mdt
 
 
 vendor/firmware/libpn544_fw.so
-#vendor/firmware/mfg.bin
-
-#lib/hw/alsa.msm8960.so
-#lib/hw/audio.a2dp.default.so
-#lib/hw/audio_policy.default.so
-#lib/hw/audio.primary.default.so
-#lib/hw/audio.primary.msm8960.so
+vendor/firmware/mfg.bin
 
 
 

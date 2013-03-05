@@ -61,9 +61,9 @@ TARGET_SCREEN_HEIGHT 		:= 1920
 TARGET_SCREEN_WIDTH 		:= 1080
 
 # Mediaplayer
-#BOARD_USES_HW_MEDIAPLUGINS := false
-#BOARD_USES_HW_MEDIASCANNER := false
-#BOARD_USES_HW_MEDIARECORDER := false
+BOARD_USES_HW_MEDIAPLUGINS := false
+BOARD_USES_HW_MEDIASCANNER := false
+BOARD_USES_HW_MEDIARECORDER := false
 
 # QCOM GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION 	:= 50000
@@ -84,7 +84,6 @@ WIFI_DRIVER_MODULE_NAME          := bcmdhd
 WIFI_DRIVER_MODULE_PATH          := "/system/lib/modules/bcmdhd.ko"
 
 # HTC DNA PARTITION LAYOUT 
-
 #dev:        size     erasesize name
 #mmcblk0p21: 000ffa00 00000200 "misc"
 #mmcblk0p20: 00fffe00 00000200 "recovery"
