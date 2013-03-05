@@ -3,11 +3,11 @@
 lib/libacdbloader.so
 lib/libaudcal.so
 
-lib/libOpenCL.so
+#lib/libOpenCL.so
 lib/libOpenVG.so
-lib/libclrenderer.so
-lib/libxml.so
-lib/libmmstillomx.so   
+#lib/libclrenderer.so
+#lib/libxml.so
+#lib/libmmstillomx.so   
 #lib/libOmxVenc.so
 #lib/libOmxVdec.so
 #lib/libmm-omxcore.so
@@ -56,8 +56,8 @@ bin/v4l2-qcamera-app
 
 
 # Audio
-lib/libacdbloader.so
-lib/libaudcal.so
+#lib/libacdbloader.so
+#lib/libaudcal.so
 
 # Graphics
 lib/libc2d2_a3xx.so
@@ -137,18 +137,18 @@ lib/libdrmwvmplugin.so
 lib/libwvdrm_L1.so
 lib/libWVStreamControlAPI_L1.so
 
-lib/libmmmpo.so
-lib/libmmmpod.so
-lib/libgnmc_aactag.2.5.9.4.so
-lib/libgnmc_decoder.2.5.9.4.so
-lib/libdrmdecrypt.so
-lib/libdivxdrmdecrypt.so
+#lib/libmmmpo.so
+#lib/libmmmpod.so
+#lib/libgnmc_aactag.2.5.9.4.so
+#lib/libgnmc_decoder.2.5.9.4.so
+#lib/libdrmdecrypt.so
+#lib/libdivxdrmdecrypt.so
 lib/libDxAndroidSpecific.so
 
 #lib/libstagefright_soft_aacdec.so
 #lib/libstagefright_soft_aacenc.so
-lib/libimage-jpeg-dec-omx-comp.so
-lib/libimage-jpeg-enc-omx-comp.so
+#lib/libimage-jpeg-dec-omx-comp.so
+#lib/libimage-jpeg-enc-omx-comp.so
 #lib/libimage-omx-common.so
 #lib/libdrmfs.so
 #lib/libfuse.so
