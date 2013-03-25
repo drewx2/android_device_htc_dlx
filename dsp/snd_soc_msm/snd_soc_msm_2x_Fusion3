@@ -13,6 +13,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -27,6 +28,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -41,6 +43,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -55,6 +58,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -67,6 +71,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -81,6 +86,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -107,6 +113,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -121,6 +128,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -135,6 +143,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -149,6 +158,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -163,6 +173,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -357,6 +368,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -399,6 +411,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -499,6 +512,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -513,6 +527,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -527,6 +542,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -555,6 +571,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -653,6 +670,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -751,6 +769,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -793,6 +812,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -977,6 +997,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1047,6 +1068,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1089,6 +1111,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1117,6 +1140,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1131,6 +1155,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1159,6 +1184,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1173,6 +1199,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1201,6 +1228,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1229,6 +1257,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1257,6 +1286,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1285,6 +1315,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1299,6 +1330,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1327,6 +1359,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1341,6 +1374,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1369,6 +1403,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1397,6 +1432,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1425,6 +1461,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1439,6 +1476,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1453,6 +1491,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1467,38 +1506,11 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
-EndSection
-
-SectionVerb
-	Name "HiFi RecHeadphone Beats"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
 	Name "HiFi RecSpeaker Ringtone"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
-EndSection
-
-SectionVerb
-	Name "HiFi RecSpeaker Beats"
 
 	EnableSequence
 		'MultiMedia1 Mixer SLIM_0_TX':1:1
@@ -1596,48 +1608,6 @@ SectionVerb
 EndSection
 
 SectionVerb
-	Name "HiFi RecHeadset Beats"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
-EndSection
-
-SectionVerb
-	Name "HiFi RecHeadset Beats VR"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
-EndSection
-
-SectionVerb
-	Name "HiFi RecHeadset BeatsCam"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
-EndSection
-
-SectionVerb
 	Name "HiFi RecHeadset SPK VR"
 
 	EnableSequence
@@ -1677,6 +1647,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  0
 	PlaybackPCM  0
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -1862,20 +1833,6 @@ SectionVerb
 EndSection
 
 SectionVerb
-	Name "HiFi RecHeadphones Beats HW VOIP"
-
-	EnableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:1
-	EndSequence
-
-	DisableSequence
-		'MultiMedia1 Mixer SLIM_0_TX':1:0
-	EndSequence
-	CapturePCM  0
-	PlaybackPCM  0
-EndSection
-
-SectionVerb
 	Name "HiFi RecHeadset Beats HW VOIP"
 
 	EnableSequence
@@ -1905,6 +1862,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  9
 	PlaybackPCM  9
+	ACDBID 0:0
 EndSection
 
 SectionVerb
@@ -2223,6 +2181,7 @@ SectionVerb
 	EndSequence
 	CapturePCM  9
 	PlaybackPCM  9
+	ACDBID 0:0
 EndSection
 
 SectionVerb

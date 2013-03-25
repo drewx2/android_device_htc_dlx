@@ -71,7 +71,7 @@ ro.nfc.port=I2C
 persist.timed.enable=true
 
 # UMS/MTP
-persist.sys.usb.config=mass_storage,adb
+persist.sys.usb.config=adb
 
 #
 # system props for the cne module
@@ -89,18 +89,17 @@ persist.cne.rat.acq.time.out=30000
 persist.cne.rat.acq.retry.tout=0
 persist.cne.sync.swim.mode=false
 
-#htc.audio.global.state=0
-#htc.audio.global.profile=0
-#htc.audio.q6.topology=0
-#mpq.audio.decode=true
+htc.audio.global.state=0
+htc.audio.global.profile=0
+htc.audio.q6.topology=0
 
-media.stagefright.enable-player=true
-media.stagefright.enable-http=true
-media.stagefright.enable-aac=true
-media.stagefright.enable-qcp=true
-media.stagefright.enable-fma2dp=true
-media.stagefright.enable-scan=true
-mmp.enable.3g2=true
+#media.stagefright.enable-player=true
+#media.stagefright.enable-http=true
+#media.stagefright.enable-aac=true
+#media.stagefright.enable-qcp=true
+#media.stagefright.enable-fma2dp=true
+#media.stagefright.enable-scan=true
+#mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 
 # Support HW reset

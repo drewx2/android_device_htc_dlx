@@ -1,17 +1,9 @@
 
-# Audio
-lib/libacdbloader.so
-lib/libaudcal.so
-
-#lib/libOpenCL.so
-lib/libOpenVG.so
-#lib/libclrenderer.so
-lib/libxml.so
-#lib/libmmstillomx.so   
 #lib/libaricentomxplugin.so 
 #lib/soundfx/libsrsfx.so
 #lib/libsoundpool.so
-
+#lib/libOmxVdec.so
+#lib/libOmxVenc.so
 
 #Configuration files
 etc/agps_rm
@@ -23,29 +15,30 @@ bin/akmd
 bin/ATFWD-daemon
 bin/bridgemgrd
 bin/bma150_usr
+bin/brcmapd
+bin/btld
 bin/charging
+bin/diag_uart_log
 bin/ds_fmc_appd
 bin/dmagent
-bin/DxDrmServerIpc
+#bin/DxDrmServerIpc
 bin/efsks
 bin/hci_qcomm_init
 bin/hcheck
-bin/hdmid
 bin/ks
 bin/l2_profile_exchange
-bin/mm-qcamera-app
 bin/mm-qcamera-daemon
 bin/mpdecision
-bin/mm-pp-daemon
 bin/netmgrd
 bin/nl_listener
-bin/netsharing
+#bin/netsharing
 bin/port-bridge
 bin/qcks
 bin/qmiproxy
 bin/qmuxd
 bin/qseecomd
 bin/radish
+bin/sound8064
 bin/thermald
 bin/usbhub
 bin/usbhub_init
@@ -53,8 +46,12 @@ bin/v4l2-qcamera-app
 
 
 # Audio
-#lib/libacdbloader.so
-#lib/libaudcal.so
+lib/libacdbloader.so
+lib/libaudcal.so
+#lib/libaudioutils.so
+#lib/libalsa-intf.so
+lib/libsrsprocessing.so
+lib/libsoundpool.so
 
 # Graphics
 lib/libc2d2_a3xx.so
@@ -71,117 +68,132 @@ lib/egl/libGLESv2S3D_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/libgsl.so
 lib/libllvm-a3xx.so
+lib/libOpenCL.so
+lib/libOpenVG.so
+lib/libxml.so
 
 # GPS
 lib/libloc_api_v02.so
-lib/libloc_adapter.so
-lib/libloc_eng.so
-lib/libloc_ext.so
-lib/libgps.utils.so
-lib/libloc_ext.so
 
 # Camera  
 lib/libcameraface.so
 lib/libcameraasd.so
 lib/libcamerapp.so
+lib/libcamera_client.so
 lib/libcam_oem_plugin.so
 lib/liboemcamera.so
 lib/libOlaEngineNew.so
 lib/libposteffect.so
 lib/libgemini.so
-lib/libmmipl.so
-lib/libmmjpeg.so
+lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
+lib/libmmcamera_hdr_lib.so
+lib/libmmcamera_image_stab.so
 lib/libmmcamera_rawchipproc.so
 lib/libmmcamera_statsproc31.so
-lib/libmmcamera_interface2.so
+lib/libmmcamera_wavelet_lib.so
+lib/libmmipl.so
+lib/libmmjpeg.so
+lib/libmmjps.so
+lib/libmmmpo.so
+lib/libmmmpod.so
+lib/libmmstillomx.so
 
 lib/libchromatix_ar0260_default_video.so
-lib/libchromatix_imx175_hdr.so
-lib/libchromatix_s5k3h2yx_hfr.so
-lib/libchromatix_ar0260_preview.so        
-lib/libchromatix_imx175_hfr.so              
-lib/libchromatix_ar0260_zsl.so            
+lib/libchromatix_ar0260_preview.so  
+lib/libchromatix_ar0260_zsl.so
+
+lib/libchromatix_imx175_default_video.so 
+lib/libchromatix_imx175_hdr.so        
+lib/libchromatix_imx175_hfr.so                        
 lib/libchromatix_imx175_preview.so          
 lib/libchromatix_imx175_zsl.so              
+
 lib/libchromatix_s5k3l1yx_default_video.so
-lib/libchromatix_s5k3l1yx_hfr_120fps.so
 lib/libchromatix_s5k3l1yx_hfr_60fps.so
-lib/libchromatix_ov2722_default_video.so    
 lib/libchromatix_s5k3l1yx_hfr_90fps.so
-lib/libchromatix_imx091_default_video.so  
-lib/libchromatix_ov2722_preview.so          
+lib/libchromatix_s5k3l1yx_hfr_120fps.so
 lib/libchromatix_s5k3l1yx_preview.so
-lib/libchromatix_imx091_preview.so        
-lib/libchromatix_ov2722_zsl.so              
-lib/libchromatix_s5k3l1yx_video_hd.so
-lib/libchromatix_imx091_video_hd.so       
-lib/libchromatix_ov5647_preview.so          
+lib/libchromatix_s5k3l1yx_video_hd.so  
 lib/libchromatix_s5k3l1yx_zsl.so
-lib/libchromatix_imx091_zsl.so            
+
+lib/libchromatix_imx091_default_video.so
+lib/libchromatix_imx091_preview.so 
+lib/libchromatix_imx091_video_hd.so
+lib/libchromatix_imx091_zsl.so   
+
+lib/libchromatix_ov2722_default_video.so
+lib/libchromatix_ov2722_preview.so                
+lib/libchromatix_ov2722_zsl.so          
+        
 lib/libchromatix_ov8838_default_video.so    
 lib/libchromatix_ov8838_hdr.so              
 lib/libchromatix_ov8838_hfr.so              
 lib/libchromatix_ov8838_preview.so          
-lib/libchromatix_ov8838_zsl.so              
-lib/libchromatix_imx175_default_video.so 
+lib/libchromatix_ov8838_zsl.so   
+
+#lib/libchromatix_ov5647_preview.so          
+           
+#lib/libchromatix_s5k3h2yx_hfr.so
 
 
 # Media libraries
 lib/libmm-color-convertor.so
 lib/libwvm.so
-lib/libdrmwvmplugin.so
 lib/libwvdrm_L1.so
 lib/libWVStreamControlAPI_L1.so
 lib/libI420colorconvert.so
 
-lib/libmmmpo.so
-lib/libmmmpod.so
+#lib/libOmxCore.so
+#lib/libOmxVdec.so
+#lib/libmm-omxcore.so
+#lib/libaricentomxplugin.so
+#lib/liborion.so
+#lib/libqdMetaData.so
+
+lib/libacc.so
 lib/libgnmc_aactag.2.5.9.4.so
 lib/libgnmc_decoder.2.5.9.4.so
-lib/libdrmdecrypt.so
-lib/libdivxdrmdecrypt.so
-lib/libDxAndroidSpecific.so
+#lib/libdrmdecrypt.so
+#lib/libdivxdrmdecrypt.so
+#lib/libDxAndroidSpecific.so
+#lib/libdrmfs.so
+#lib/liboma-drm1-fs.so
 
-#lib/libstagefright_soft_aacdec.so
-#lib/libstagefright_soft_aacenc.so
 lib/libimage-jpeg-dec-omx-comp.so
 lib/libimage-jpeg-enc-omx-comp.so
 lib/libimage-omx-common.so
-lib/libdrmfs.so
-#lib/libfuse.so
 
 # NFC
 lib/hw/nfc.dlx.so
 lib/libpn544_fw.so
 
-# Qualcomm
+# Qualcomm / Radio
+lib/libCommandSvc.so
+lib/libconfigdb.so
+lib/libcsd-client.so
 lib/libdiag.so
 lib/libdsi_netctrl.so
+lib/libdsprofile.so
+lib/libdss.so
 lib/libdsutils.so
 lib/libidl.so
+lib/libhtc_rilhook.so
+lib/libnetmgr.so
+lib/libqc-opt.so
+lib/libqcci_legacy.so
 lib/libqdi.so
 lib/libqdp.so
 lib/libqmi.so
 lib/libqmi_cci.so
+lib/libqmi_client_qmux.so
 lib/libqmi_common_so.so
 lib/libqmi_csi.so
 lib/libqmi_encdec.so
 lib/libqmiservices.so
-lib/libqmi_client_qmux.so
-lib/libQSEEComAPI.so
-
-
-# Radio
-lib/libhtc_rilhook.so
-lib/libnetmgr.so
-lib/libqc-opt.so
 lib/libril-qc-qmi-1.so
 lib/libril-qcril-hook-oem.so
-lib/libcsd-client.so
-lib/libCommandSvc.so
-lib/libconfigdb.so
-lib/libqcci_legacy.so
+lib/libQSEEComAPI.so
 lib/libril.so
 
 # Sensors
@@ -191,6 +203,8 @@ lib/libmlplatform.so
 lib/libmllite.so
 lib/libmpl.so
 
+
+lib/libext3-fileio.so
 
 # Q6 firmware
 #etc/firmware/q6/q6.b00
@@ -221,12 +235,9 @@ lib/libmpl.so
 #etc/firmware/mdm/image/sbl1.mbn
 #etc/firmware/mdm/image/sbl2.mbn
 
-
 # Modem firmware
 
-
 # WLAN
-
 etc/firmware/BCM4334B0_002.001.013.0488.0604_DLX_WL.hcd
 etc/firmware/fw_bcm4334.bin
 etc/firmware/fw_bcm4334_apsta.bin
@@ -261,8 +272,23 @@ etc/firmware/tzapps.b03
 etc/firmware/tzapps.mdt
 
 
+#lib/hw/camera.msm8960.so
+lib/libHTC_DIS.so
+#lib/libmmcamera_interface2.so
 vendor/firmware/libpn544_fw.so
 vendor/firmware/mfg.bin
 
+
+lib/libdumppcm.so
+lib/qnet-plugin.so
+lib/libdivxdrmdecrypt.so
+# MAKO
+#lib/libOmxWmaDec.so
+#lib/libOmxAacDec.so
+#lib/lib_dlb_msd.so
+lib/libdrmdecrypt.so
+#lib/libdrmdiag.so
+lib/libdrmfs.so
+#lib/libdrmtime.so
 
 

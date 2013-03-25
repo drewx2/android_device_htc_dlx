@@ -33,7 +33,8 @@ PRODUCT_COPY_FILES += \
     
 
 PRODUCT_COPY_FILES += \
-    device/htc/dlx/prebuilt/bootanimation.zip:/system/media/bootanimation.zip
+    device/htc/dlx/prebuilt/bootanimation.zip:/system/media/bootanimation.zip \
+    device/htc/dlx/prebuilt/default_cm-10.1_dna.jpg:/system/media/default_wallpaper.jpg
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
@@ -45,7 +46,9 @@ PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):/system/etc/nfcee_access.xml
 
 # HTC BT audio config
-PRODUCT_COPY_FILES += device/htc/dlx/configs/AudioBTID.csv:/system/etc/AudioBTID.csv
+PRODUCT_COPY_FILES += \
+	device/htc/dlx/configs/AudioBTID.csv:/system/etc/AudioBTID.csv \
+	device/htc/dlx/configs/AudioBTIDnew.csv:/system/etc/AudioBTIDnew.csv
 
 # QC thermald config
 PRODUCT_COPY_FILES += device/htc/msm8960-common/configs/thermald.conf:/system/etc/thermald.conf
@@ -56,7 +59,10 @@ PRODUCT_COPY_FILES += \
 
 # wifi config
 PRODUCT_COPY_FILES += \
-    device/htc/dlx/configs/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf
+    device/htc/dlx/configs/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf \
+    device/htc/dlx/configs/wpa_supplicant.conf:/system/etc/wifi/p2p_supplicant.conf \
+    device/htc/dlx/configs/calibration:/system/etc/calibration \
+    device/htc/dlx/configs/calibration.gpio4:/system/etc/calibration.gpio4
 
 # Sound configs
 PRODUCT_COPY_FILES += \
