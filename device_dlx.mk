@@ -1,4 +1,4 @@
-#
+##
 # Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,25 +12,30 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+##
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # common msm8960 configs
 $(call inherit-product, device/htc/msm8960-common/msm8960.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/htc/dlx/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+	device/htc/dlx/overlay
 
 # Boot ramdisk setup
 PRODUCT_COPY_FILES += \
     device/htc/dlx/ramdisk/fstab.dlx:root/fstab.dlx \
     device/htc/dlx/ramdisk/init.target.rc:root/init.target.rc \
-    device/htc/dlx/ramdisk/init.usb.rc:root/init.usb.rc \
+    device/htc/dlx/ramdisk/init.qcom.firmware_links.sh:root/init.qcom.firmware_links.sh \
     device/htc/dlx/ramdisk/init.qcom.modem_links.sh:root/init.qcom.modem_links.sh \
+    device/htc/dlx/ramdisk/init.qcom.rc:root/init.qcom.rc \
     device/htc/dlx/ramdisk/init.qcom.sh:root/init.qcom.sh \
-    device/htc/dlx/ramdisk/ueventd.target.rc:root/ueventd.target.rc \
-    device/htc/dlx/ramdisk/init.sensors.rc:root/init.sensors.rc
-    
+    device/htc/dlx/ramdisk/init.rc:root/init.qcom.rc \
+    device/htc/dlx/ramdisk/init.sensors.rc:root/init.sensors.rc \
+    device/htc/dlx/ramdisk/init.target.rc:root/init.target.rc \
+    device/htc/dlx/ramdisk/init.usb.rc:root/init.usb.rc \
+    device/htc/dlx/ramdisk/ueventd.rc:root/ueventd.rc \
+    device/htc/dlx/ramdisk/ueventd.target.rc:root/ueventd.target.rc    
 
 PRODUCT_COPY_FILES += \
     device/htc/dlx/prebuilt/bootanimation.zip:/system/media/bootanimation.zip \
@@ -108,11 +113,11 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-        libloc_adapter \
-        libloc_eng \
-        libloc_api_v02 \
-        libgps.utils \
-        gps.msm8960
+	libloc_adapter \
+	libloc_eng \
+	libloc_api_v02 \
+	libgps.utils \
+	gps.default
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -129,10 +134,10 @@ PRODUCT_PACKAGES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-        frameworks/native/data/etc/android.hardware.nfc.xml:/system/etc/permissions/android.hardware.nfc.xml \
-        frameworks/base/nfc-extras/com.android.nfc_extras.xml:/system/etc/permissions/com.android.nfc_extras.xml \
-        frameworks/native/data/etc/android.hardware.telephony.cdma.xml:/system/etc/permissions/android.hardware.telephony.cdma.xml \
-        frameworks/native/data/etc/android.hardware.telephony.gsm.xml:/system/etc/permissions/android.hardware.telephony.gsm.xml
+	frameworks/native/data/etc/android.hardware.nfc.xml:/system/etc/permissions/android.hardware.nfc.xml \
+	frameworks/base/nfc-extras/com.android.nfc_extras.xml:/system/etc/permissions/com.android.nfc_extras.xml \
+	frameworks/native/data/etc/android.hardware.telephony.cdma.xml:/system/etc/permissions/android.hardware.telephony.cdma.xml \
+	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:/system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # Extra properties
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -159,7 +164,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Device uses high-density artwork where available
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_LOCALES += en_US xhdpi
 
