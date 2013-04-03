@@ -84,6 +84,29 @@ PRODUCT_COPY_FILES += \
     device/htc/dlx/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3:/system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3 \
     device/htc/dlx/dsp/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC:/system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC
 
+# Sound Amplifier Config
+PRODUCT_COPY_FILES += \
+    device/htc/dlx/dsp/tfa/fm.config:/system/etc/tfa/fm.config \
+    device/htc/dlx/dsp/tfa/fm.eq:/system/etc/tfa/fm.eq \
+    device/htc/dlx/dsp/tfa/fm.preset:/system/etc/tfa/fm.preset \
+    device/htc/dlx/dsp/tfa/playback.config:/system/etc/tfa/playback.config \
+    device/htc/dlx/dsp/tfa/playback.eq:/system/etc/tfa/playback.eq \
+    device/htc/dlx/dsp/tfa/playback.preset:/system/etc/tfa/playback.preset \
+    device/htc/dlx/dsp/tfa/recorder.config:/system/etc/tfa/recorder.config \
+    device/htc/dlx/dsp/tfa/recorder.eq:/system/etc/tfa/recorder.eq \
+    device/htc/dlx/dsp/tfa/recorder.preset:/system/etc/tfa/recorder.preset \
+    device/htc/dlx/dsp/tfa/recorder.ring.config:/system/etc/tfa/ring.config \
+    device/htc/dlx/dsp/tfa/tfa9887.config/system/etc/tfa/tfa9887.config \
+    device/htc/dlx/dsp/tfa/tfa9887.patch:/system/etc/tfa/tfa9887.patch \
+    device/htc/dlx/dsp/tfa/tfa9887.speaker:/system/etc/tfa/tfa9887.speaker \
+    device/htc/dlx/dsp/tfa/video.config:/system/etc/tfa/video.config \
+    device/htc/dlx/dsp/tfa/video.eq:/system/etc/tfa/video.eq \
+    device/htc/dlx/dsp/tfa/video.preset:/system/etc/tfa/video.preset \
+    device/htc/dlx/dsp/tfa/voice.config:/system/etc/tfa/voice.config \
+    device/htc/dlx/dsp/tfa/voice.eq:/system/etc/tfa/voice.eq \
+    device/htc/dlx/dsp/tfa/voice.preset:/system/etc/tfa/voice.preset \
+	device/htc/dlx/dsp/RT5501:/system/etc/RT5501
+
 # Keylayouts and Keychars
 PRODUCT_COPY_FILES += \
     device/htc/dlx/keylayout/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
